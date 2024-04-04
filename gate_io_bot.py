@@ -6,6 +6,8 @@ with open('selected_list.csv', 'r') as f:
 
 a = rows[0][0]
 
+
+
 bot = telebot.TeleBot('6565244721:AAFFZmNxxg6yo-WeDdOZvnlhqhkkZtsIzko')
 
 @bot.message_handler(commands=['start'])
